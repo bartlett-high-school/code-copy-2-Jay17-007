@@ -12,11 +12,15 @@
 
       nav {
         display: inline-block;
+        width: 100%;
+        background-color: black;
       }
 
       .nav li {
         float: left;
         list-style-type: none;
+        margin: auto 5px; 
+        color: white;
       }
 
       ul {
@@ -24,12 +28,27 @@
       }
 
       body {
-        width: 100%;
-        margin: 0;
+      	max-width: 100%;
+      	margin: 0;
+      }
+
+      .mini-section {
+      	max-width: 100%;
+      	display: block;
+      }
+
+      .mini-section img {
+      	display: inline-block;
+      }
+
+      .quarter_pics {
+      	width: 25%;
+      	float: left;
+      	align-content: center;
       }
     </style>
 
-  </head>
+  </head>	
   
   <body>
   	<header>
@@ -51,20 +70,21 @@
   	</header>
 
   	<section class="legitness">
-  		  <img src="img/iphone.jpg">
+  		  
   	</section>
   	<div class="clear"></div>
 
   	<section class="mini-section">
-  		  <img src="img/made_by_apple.jpg">
-        <img src="img/ipad_pro.jpg">
-        <img src="img/airpods.jpg">
-        <img src="img/apple_tv.jpg">
+  		  <div class="quarter_pics"><img src="img/made_by_apple.jpg"></div>
+	      <div class="quarter_pics"><img src="img/ipad_pro.jpg"></div>
+	      <div class="quarter_pics"><img src="img/airpods.jpg"></div>
+	      <div class="quarter_pics"><img src="img/apple_tv.jpg"></div>
   	</section>
 
   	<footer>
+  		<div>
         <ul>
-          <th>Shop and Learn</th>
+          <th><strong>Shop and Learn</strong></th>
             <li>Mac</li>
             <li>iPad</li>
             <li>iPhone</li>
@@ -76,20 +96,71 @@
             <li>Accessories</li>
             <li>Gift Cards</li>
   		  </ul>
+  		</div>
 
+  		<div>
         <ul>
-          <th>Apple Store</th>
+          <th><strong>Apple Store</strong></th>
             <li>Find a Store</li>
             <li>Genius Bar</li>
             <li>Workshops and Learning</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Youth Programs</li>
+            <li>Apple Store App</li>
+            <li>Refurbished and Clearance</li>
+            <li>Financing</li>
+            <li>Reuse and Recycling</li>
+            <li>Order Status</li>
+            <li>Shopping Help</li>
         </ul>
+        </div>
+
+        <div>
+        <ul>
+	      <th><strong>For Education</strong></th>
+			<li>Apple and Education</li>
+			<li>Shop for College</li> 	
+        </ul>
+
+        <ul>
+          <th><strong>For Business</strong></th>
+			<li>Apple and Business</li>
+			<li>Shop for Business</li>
+        </ul>
+        </div>
+
+        <div>
+        <ul>
+          <th><strong>Account</strong></th>
+			<li>Manage Your Apple ID</li>
+			<li>Apple Store Account</li>
+			<li>iCloud.com</li>
+        </ul>
+
+        <ul>
+          <th><strong>Apple Values</strong></th>
+			<li>Accessibility</li>
+			<li>Education</li>
+			<li>Environment</li>
+			<li>Inclusion and Diversity</li>
+			<li>Privacy</li>
+			<li>Supplier Responsibility</li>
+        </ul>
+        </div>
+
+        <div>
+        <ul>
+       	  <th><strong>About Apple</strong></th>
+			<li>Apple Info</li>
+			<li>Newsroom</li>
+			<li>Job Opportunities</li>
+			<li>Press Info</li>
+			<li>Investors</li>
+			<li>Events</li>
+			<li>Contact Apple</li>
+        </ul>
+        </div>
+
+        <hr width="80%"> Copyright &copy
   	</footer>
   </body>
   
